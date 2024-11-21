@@ -1,15 +1,17 @@
 {
-  "name": "nt_07_gost_server",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "devDependencies": {
-    "typescript": "^5.6.3"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+    "name": "nt_07_gost_server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "devDependencies": {
+        "typescript": "^5.6.3",
+        "tsx": "^3.12.7"
+    },
+    "scripts": {
+        "start": "tsx src/MiniGame_JumpBrick/Test.ts",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
 }
