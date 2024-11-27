@@ -9,7 +9,9 @@
     },
     "scripts": {
         "start": "tsx src/MiniGame_JumpBrick/Test.ts",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "character_debug": "tsx src/RainDoll/Character/Temp/DebugData.ts",
+        "build": "tsc -p ."
     },
     "keywords": [],
     "author": "",
